@@ -1,0 +1,36 @@
+/* TAG SELECTOR */
+h3
+
+{color:burlywood;
+ text-align: center
+ ;
+    color: blueviolet;
+    
+
+}
+/* ID SELECTOR */
+ #red{
+   text-align: center;
+color: black;
+font-size: 15px ;
+ }
+ /* CLASS SELECTOR */
+ .red{
+    color: brown;
+    font-size: 40px;
+ }
+ header
+ {
+    
+    width: 100%;
+    height: 500px;
+    background-image: url("https://media.licdn.com/dms/image/C561BAQEvkC_ty4VUew/company-background_10000/0/1627613926961/luminartechnolab_cover?e=2147483647&v=beta&t=yiKXkaIC0Gd0OQfayUB_fWSbV5MFCUoJIIWRXApUCxE");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity;
+ }
+ 
+ *{
+    margin:0px;
+ }

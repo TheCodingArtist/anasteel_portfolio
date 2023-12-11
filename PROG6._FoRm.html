@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Registration Form</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="">
+    <label for="fn">FIRST NAME :</label>
+    <input id="fn" type="text" placeholder="enter first name"> 
+    <br>
+<br>
+    <label for="sn" >SECOND NAME :</label>
+    <input id="sn"  type="text" placeholder="enter secondname"> <br> <br>
+
+    <label for="ln" >LAST NAME :</label>
+    <input id="ln" type="text" placeholder=" enter your last name"> <br>  <br>
+
+    <label for="un">USER NAME :</label>
+    <input id="un" type="text" placeholder="enter your username"><br> <br>
+
+    <label for="ps"> PASSWORD :</label>
+    <input id="ps" type="password" placeholder="enter your password"><br><br>
+
+    <label for="em">Email Id</label>
+<input type="email" id="em" placeholder="enter your email id"> <br><br>
+
+<label for="ps">password</label>
+<input type="password" placeholder="enter your password" id="ps"> <br><br>
+ <!-- inserting date into  FORMS -->
+<label for="dt">Date of Birth</label>
+<input type="date"  id="dt"> <br><br>
+
+<!-- for inserting address box we use textarea tag -->
+<label for="ad">Address</label>
+<textarea id="ad" cols="20" rows="40" placeholder="type your address"></textarea> <br><br>
+<label for="fl"> Upload your file</label>
+<input type="file"> <br><br>
+
+<!-- Radio buttons are inserted here -->
+<label >Gender</label>
+<input type="radio" name="gender">
+<label> Male</label>
+<input type="radio" name="gender">
+<label> Female</label>
+<input type="radio" name="gender">
+<label> Others</label><br><br>
+<!-- Inserting chechbox -->
+<label> choose any vehicle</label>
+ <input name="vehicle"                 type="checkbox" >
+ <label> car</label>
+ <input  name="vehicle"                      type="checkbox" >
+ <label> bike</label>
+ <input  name="vehicle"                type="checkbox" >
+ <label> public</label> <br><br>
+ <!-- type = "number" -->
+ <label> Number of attempts</label>
+ <input type="number" max="5" min="3">
+ <br><br>
+ <!-- select tag is used to choose any option from the dropdown list -->
+ <label for="">Choose your course</label>
+ <select multiple >
+    <option value="science">science</option>
+    <option value="Commerse">commerse</option>
+    <option value="Computer">Computer</option>
+
+ </select>
+  <!-- it is used to create  -->
+  <button>submit</button>
+    </form>
+</body>
+</html>
